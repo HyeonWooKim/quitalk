@@ -9,7 +9,7 @@ changeskin.php
 *****************************************************/
 
 session_start();
-$connect = mysqli_connect("localhost","root","wrpgained","quitalk") or alert("DB 접속에 실패하였습니다.");
+$connect = mysqli_connect(/*개인 DB정보 입력*/) or alert("DB 접속에 실패하였습니다.");
 $connect->query("set names utf8");
 
 if(!$_POST || !$_SESSION[email] || !is_numeric($_POST[skinno])) die();
