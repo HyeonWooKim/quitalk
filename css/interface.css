@@ -1,0 +1,32 @@
+
+/*
+Quitalk css
+Author: HyeonWoo-Kim(kookmin20103324@gmail.com)
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*
+{
+	font-family: 'Nanum Gothic', serif;﻿
+}
+body
+{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+	background-color:#f0f0f0;
+	margin:0 auto;
+}
+#topArea1
+{
+	background-color:#d8153e;
+	width:100%;
+	height:100px;
+	color:#f4e822;
+	font-size:16px;
+	text-align:center;
+}
+#loginArea
+{
+	font-size:15px;
+	text-align:center;
+}
